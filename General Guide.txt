@@ -1,0 +1,54 @@
+Plotting Library general information
+
+==== Loading .py in ipython ====
+To load some file into the ipython we could use
+
+  %load <filename>
+
+  ex:
+    %load plotting.py
+
+
+    To run some file into the ipython we could use
+
+      %run <filename>
+
+      ex:
+        %run plotting.py
+
+================================
+
+==== Plotting scatterplot ====
+
+  scatterplot(x,y)
+
+with x and y is a list and have same number of elements
+
+===============================
+
+==== Plotting barplot ====
+plot single bar plot (label vs data)
+
+  barrplot(labels,data)
+
+labels = name of the data of index 'x'
+data = amount of the data of index 'x'
+
+===============================
+
+==== Plotting histogram ====
+
+  hist(data, None, <divide by>)
+
+data = collection of data
+divide by = how many section we want to divide data by
+
+===============================
+
+==== Plotting bar chart ====
+
+  hist(<x>,<y>)
+
+with x and y is a list and have same number of elements
+
+===============================
